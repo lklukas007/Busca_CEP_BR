@@ -21,7 +21,7 @@ new Vue({
                 var bean = response.data;
                 this.endereco.logradouro = bean.logradouro;
                 this.endereco.bairro = bean.bairro;
-                this.endereco.estado = bean.estado;
+                this.endereco.estado = bean.uf;
                 this.endereco.cidade = bean.localidade;
                 this.endereco.ibge = bean.ibge;
                 this.endereco.ddd = bean.ddd;

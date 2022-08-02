@@ -4,4 +4,6 @@ body {
 
 .formulario {
     width: 1500px;
+    display: flex;
+    margin: auto;
 }
