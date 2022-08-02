@@ -8,10 +8,16 @@
    <title>Buscador de CEPs</title>
 </head>
 <body>
+    <header>
+        <h1>Busca CEP - BR</h1>
+        <br>
+    </header>
+    <div class="row"></div>
+
     <div id="appCep">
         <div class="formulario">
             <div class="row">
-                <div class="col-md-2">
+                <div class="col-md-10">
                     <div class="mb-3">
                         <label class="form-label">CEP:</label>
                         <input type="text" v-model="endereco.cep"  @change="cepAlteradoEvento" class="form-control">
@@ -19,7 +25,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row" hidden>
                 <div class="col-md-8">
                     <div class="mb-3">
                         <label class="form-label">Logradouro</label>

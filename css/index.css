@@ -1,9 +1,23 @@
 body {
-    padding: 30px;
 }
 
-.formulario {
-    width: 1500px;
+header {
+    color: white;
+    align-items: center;
+    height: 100px;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #333;
+    margin: 0;
+    position: fixed;
+    width: 100%;
     display: flex;
-    margin: auto;
+    justify-content: center;
+}
+.formulario{
+    padding: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
 }
