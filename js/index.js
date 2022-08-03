@@ -29,3 +29,8 @@ new Vue({
         }
     }
 });
+
+function mostrarform(){
+    var obj=target.dataset.nome;
+    document.getElementById(obj).hidden=true;
+}
