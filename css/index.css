@@ -16,4 +16,10 @@ header {
     justify-content: center;
     align-items: center;
     display: flex;
+    margin-top: 50px;
+}
+#header-buscar{
+    margin-top: 150px;
+
+  
 }
