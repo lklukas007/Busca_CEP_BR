@@ -20,14 +20,14 @@
             <div class="row">
                 <div class="col-lg-12">
                         <label class="form-label">CEP:</label>
-                        <input type="number" v-model="endereco.cep"  @change="cepAlteradoEvento" class="form-control" max="9" id="input-cep">
+                        <input type="text" v-model="endereco.cep"  @change="cepAlteradoEvento" class="form-control" max="9" id="input-cep">
                         <br>
                         <button type="button" class="btn btn-primary" id="show-hide-form">Buscar</button>
                 </div>
             </div>
         </div>
 
-    <div class="formulario">
+    <div class="formulario" id="form">
             <div class="row">
                 <div class="col-md-8">
                     <div class="mb-3">
